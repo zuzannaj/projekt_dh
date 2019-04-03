@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poznaj - fakty i ciekawostki</title>
+	<link rel="icon" type="image/png" href="icon.png">
+	<meta author="Zuzanna Jacewicz">
+	<meta name="keywords" content="Warszawa, przewodnik, stolica, Polska, miasto, zwiedzaj">
+	<html lang="pl">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="myScript.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+</head>
+<body>
+	<div class="grid1">
+		<div class="header">
+			<a class="title" href="index.html"><h1>WARSZAWA</h1><br><h2>internetowy przewodnik po stolicy</h2></a>
+			<ul class="nav">
+			<li><a class="contact" href="contact.html">Kontakt</a></li>
+			<li><a href="https://www.instagram.com/zciwi"><img src="instagram.png" alt="instagram"></a></li>
+			<li><a href="https://www.facebook.com"><img src="facebook.png" alt="facebook"></a></li>
+			</ul>
+		</div>
+			<div class="main" id="mainl">
+				<button class="p1" onclick="toggle1()">Warszawa w liczbach</button>
+				<div id="toggle1">Według danych z 2015 roku powierzchnia Warszawy wynosi 517 km2. Przez ostatnie dziesięć lat stale przybywa ludności – obecnie stolicę zamieszkuje 1 744 351 osób, a wśród nich ponad 100 000 więcej kobiet niż mężczyzn. Na miasto składa się osiemnaście dzielnic, w tym najbardziej zaludniony Mokotów z liczbą aż 204 472 mieszkańców. </div><br>
+				<button class="p2" onclick="toggle2()">Od kiedy Warszawa jest stolicą?</button>
+				<div id="toggle2">Choć zwykle mówi się, że Warszawa jest stolicą Polski od 1596 roku, nie do końca jest to prawdą. Wtedy przeniesiono tylko króla wraz z dworem do Warszawy, czyniąc z niej miasto rezydencjonalne Jego Królewskiej Mości. Warszawę ogłoszono stolicą Polski dopiero w 1918 roku, natomiast formalny zapis o jej stołeczności pojawił się dopiero w 1952 roku, w Konstytucji Polskiej Rzeczypospolitej Ludowej.</div><br>
+				<button class="p3" onclick="toggle3()">Dlaczego Kolumna Zygmunta była kiedyś kontrowersyjna?</button>
+				<div id="toggle3">Powstała w 1644 roku Kolumna Zygmunta III Wazy, była pierwszym świeckim pomnikiem w Polsce, co wywołało niemałe oburzenie ze strony duchowieństwa. Dotychczas miejsca na wysokich postumentach zarezerwowane były wyłącznie dla świętych.</div><br>
+				<button class="p4" onclick="toggle4()">Gdzie w Warszawie znajduje się rezerwat przyrody?</button>
+				<div id="toggle4">Warszawa jest jedyną stolicą w Unii Europejskiej, gdzie blisko centrum znajduje się rezerwat przyrody. W odległości zaledwie 6 km od ścisłego śródmieścia, na Mokotowie, położony jest rezerwat Jeziorko Czerniakowskie - ostoja dla wielu gatunków zwierząt, w tym ptaków, gadów i ryb.</div><br>
+				<button class="p5" onclick="toggle5()">Jakie słodycze pochodzą z Warszawy?</button>
+				<div id="toggle5">Najlepsze polskie czekolady, cukierki i ptasie mleczka pochodzą właśnie z Warszawy. Słynna ze swoich wyrobów nie tylko w Polsce, ale i na świecie firma E. Wedel, narodziła się  w stolicy w 1851 roku. Pierwszym wyrobem były karmelki śmietankowe, które ponoć miały leczyć dolegliwości związane z przeziębieniem. Czekoladę natomiast firma zaczęła produkować kilka lat później, w 1855 roku.</div><br>
+				<button class="p6" onclick="toggle6()">Czy w Warszawie naprawdę znajdowała się skocznia narciarska?</button>
+				<div id="toggle6">Tak! Warszawa nigdy nie była uważana za stolicę sportów zimowych - bo i nie było do tego najmniejszych podstaw. A jednak właśnie na warszawskim Mokotowie przez kilkadziesiąt lat stała skocznia narciarska. Dopiero w 2015 roku rozebrano jej pozostałości. Skocznię budowano w latach 1955-59, punkt konstrukcyjny umieszczono na 38 metrach, a nawierzchnię pokryto NRD-owskim igelitem. Najdłuższy skok oddał Janusz Duda - 48,0 m - natomiast oficjalny rekord tzw. Skarpy to 40,5 metra w wykonaniu Antoniego Łuciaka. W 1989 roku warszawską skocznię zamknięto, a w późniejszych latach sukcesywnie demontowano kolejne jej elementy.</div><br>
+				<button class="p7" onclick="toggle7()">Jaki jest najwęższy budynek w Warszawie?</button>
+				<div id="toggle7">Dom Kereta. Jeden z najwęższych budynków na świecie został zbudowany w 152-centymetrowej szczelinie pomiędzy blokiem i kamienicą przy skrzyżowaniu ulic Chłodnej i Żelaznej na warszawskiej Woli. 3-kondygnacyjna instalacja artystyczna (mimo takich zamierzeń, budowla nie spełnia wymagań, by uznać ją za budynek mieszkalny) ma służyć jako pracownia izraelskiego pisarza Etgara Kereta - stąd nazwa budynku - i gościć różnego rodzaju wydarzenia kulturalne. Dom Kereta powstał w 2012 roku.</div><br>
+				<button class="p8" onclick="toggle8()">Jak rozwija się warszawskie metro?</button>
+				<div id="toggle8">Budowa drugiej linii metra w Warszawie ciągnęła się niczym brazylijska telenowela. W 2006 roku ustalono przebieg linii i rozpisano przetarg na realizację jej centralnego odcinka, by już dwa lata później unieważnić go ze względu na nieprawidłowości i zawyżone oferty. W końcu jednak w 2015 roku udało się uruchomić choć część linii M2, tworząc pierwsze na świecie metro zbudowane na planie krzyża. Na tym jednak się nie skończy, obecnie trwają prace nad kolejną częścią linii M2 prowadzącą na Targówek. Od lat 70. XX wieku w planach jest też trzecia linia warszawskiego metra, która ma dotrzeć do Gocławia. Póki co istnieje tylko peron przy Stadionie Narodowym, ale budowa M3 ma ruszyć już w 2020 roku.</div><br>
+			</div>
+			<div class ="menu">
+				<div class="l" id="active">Poznaj</div>
+				<a href="explore.html" class="e">Zwiedzaj</a>
+				<a href="admire.html" class="a">Podziwiaj</a>
+			</div>
+			<div class="footer" id="footer">
+			<p><span style="background-color:#a88645">by Zuzanna Jacewicz</span></p>
+			</div>
+	</div>
+	<button onclick="goBack()" id="goback" title="Wróć na górę">^</button> 
+</body>
+</html>

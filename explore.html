@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zwiedzaj - ciekawe miejsca</title>
+	<link rel="icon" type="image/png" href="icon.png">
+	<meta author="Zuzanna Jacewicz">
+	<meta name="keywords" content="Warszawa, przewodnik, stolica, Polska, miasto, zwiedzaj">
+	<html lang="pl">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="myScript.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="jquery.rwdImageMaps.min.js"></script>
+	<script>
+		$('img[usemap]').rwdImageMaps();
+		$(document).ready(function(e) {
+    	$('img[usemap]').rwdImageMaps();
+		});
+	</script>
+</head>
+<body>
+	<div class="grid1">
+		<div class="header">
+			<a class="title" href="index.html"><h1>WARSZAWA</h1><br><h2>internetowy przewodnik po stolicy</h2></a>
+			<ul class="nav">
+			<li><a class="contact" href="contact.html">Kontakt</a></li>
+			<li><a href="https://www.instagram.com/zciwi"><img src="instagram.png" alt="instagram"></a></li>
+			<li><a href="https://www.facebook.com"><img src="facebook.png" alt="facebook"></a></li>
+			</ul>
+		</div>
+		<div class ="menu">
+			<a href="learn.html" class="l">Poznaj</a>
+			<div class="e" id="active">Zwiedzaj</div>
+			<a href="admire.html" class="a">Podziwiaj</a>
+		</div>
+		<div class="main" id="maine">
+			<img class="warsawmap" src="mapa.png" usemap="#warsaw" title="Kliknij na nazwę wybranej dzielnicy" alt="mapa">
+			<map name="warsaw">
+				<area shape="rect" coords="30,179,100,212" href="#bemowo">
+				<area shape="rect" coords="130,56,210,91" href="#bialoleka">
+				<area shape="rect" coords="56,130,120,160" href="#bielany">
+				<area shape="rect" coords="168,305,243,325" href="#mokotow">
+				<area shape="rect" coords="95,275,148,295" href="#ochota">
+				<area shape="rect" coords="210,220,305,245" href="#pragapoludnie">
+				<area shape="poly" coords="165,140,182,140,210,213,196,213" href="#pragapolnoc">
+				<area shape="rect" coords="288,175,365,195" href="#rembertow">
+				<area shape="poly" coords="154,199,175,199,208,274,191,274" href="#srodmiescie">
+				<area shape="rect" coords="190,140,265,163" href="#targowek">
+				<area shape="rect" coords="8,299,50,319" href="#ursus">
+				<area shape="rect" coords="158,398,228,425" href="#ursynow">
+				<area shape="rect" coords="311,279,368,302" href="#wawer">
+				<area shape="rect" coords="367,215,424,235" href="#wesola">
+				<area shape="rect" coords="244,372,312,395" href="#wilanow">
+				<area shape="rect" coords="78,320,141,343" href="#wlochy">
+				<area shape="rect" coords="90,225,137,249" href="#wola">
+				<area shape="rect" coords="116,175,167,191" href="#zoliborz">
+			</map>
+			<div class="places">
+			<h3><a name="bemowo">Bemowo</a></h3><br>
+				<h4>Osiedle Przyjaźń</h4>
+				<p>Pomimo wyrastających z każdej strony szklanych wieżowców, Warszawa ma jeszcze miejsca, które pozwalają pamiętać o jej historii. Jednym z nich jest Osiedle Akademickie Przyjaźń, czyli pierwsze w Polsce studenckie miasteczko i jednocześnie baza, bez której nie powstałby Pałac Kultury i Nauki. Mówi się, że Osiedle Przyjaźń nigdy nie powstałoby bez PKiN, a najwyższy do dzisiaj budynek w Warszawie też nigdy by nie powstał, gdyby nie miejsce, które dzisiaj znajdziemy tuż przy ratuszu na Bemowie. To tutaj mieszkali radzieccy robotniczy, którzy budowali Pałac Kultury i Nauki. Uznano, że najlepszą lokalizacją dla nich będą Jelonki, ze względu na dogodne szlaki komunikacyjne i bliskość torów kolejowych. Wcześniej na terenie Osiedla Przyjaźń były pola, na których uprawiano warzywa. Rolników wywłaszczono, grunty przejął Skarb Państwa i wybudowano osiedle. 
+				</p><br>
+				<h4>Roller Disco</h4>
+				<p>Pierwsza w Warszawie Wrotkarnia RollerDisco działa od marca 2016 roku. Miejsce jest czynne przez siedem dni w tygodniu, weekendami można tam zostać trochę dłużej. We wrotkarni działa wypożyczalnia sprzętu. Znajdziemy tam specjalnie regulowane wrotki dla dzieci, a także sprzęt dla dorosłych. Rozmiarówka zaczyna się od numeru 23 i kończy na 45.</p><br>
+			<h3><a id="bialoleka">Białołęka</a></h3><br>
+				<h4>Park Henrykowski</h4>
+				<p>Nazwa tego miejsca wywodzi się od położonego nieopodal osiedla Henryków. Jest najstarszym parkiem na Białołęce, zmodernizowanym w 2009 roku. Wtedy zainstalowano tu m. in. wspaniałe linarium, powstało wiele nowych alejek, odrestaurowano ławki, zamontowano oświetlenie, ale - co najważniejsze - wybudowano znakomity plac zabaw oraz ścieżkę zdrowia.</p><br>
+			<h3><a id="bielany">Bielany</a></h3><br>
+				<h4>Las Bielański</h4>
+				<p>Las Bielański jest pozostałością dawnej średniowiecznej Puszczy Mazowieckiej. Poprzez Park Młociński i Las Młociński wąskim przesmykiem łączy się z Puszczą Kampinoską, z której czasami docierają tu dziki, jelenie, sarny, lisy, zające, a nawet łosie. Na stałe w mniej dostępnych fragmentach lasu mieszkają kuny, wiewiórki i różnego rodzaju ptaki, między innymi dzięcioł czarny - symbol Lasu Bielańskiego. Stwierdzono gniazdowanie 40 gatunków ptaków.</p><br>
+			<h3><a id="mokotow">Mokotów</a></h3><br>
+				<h4>Królikarnia</h4>
+				<p>Pałac Królikarnia zawdzięcza swoją nazwę czasom saskim, kiedy urządzono tu zwierzyniec i modnym wówczas zwyczajem polowano na króliki. W zabytkowym parku, podobnie jak w całej Królikarni historia łączy się ze współczesnością. W otoczeniu drzew i krzewów znajduje się Park Rzeźby, w którym prezentowane są wybrane prace z bogatej kolekcji Muzeum Narodowego w Warszawie. W pobliżu znajduje się Park Arkadia, a w nim między innymi stawy i plac zabaw.</p><br>
+				<h4>Disco VR</h4>
+				<p>Wielka przestrzeń, w której przeniesiecie się w nieograniczony świat Virtual Reality, a więc wirtualnej rzeczywistości znajduje się na Mokotowie. Całość ma ponad 500 metrów kwadratowych i jest największym tego typu obiektem w Europie.
+				W środku znajdziecie najnowocześniejsze okulary VR, dzięki którym obejrzycie transmisję koncertów, a także wydarzeń sportowych. Zagracie w gry, również na kultowych automatach sprzed dwudziestu lat.</p><br>
+			<h3><a id="ochota">Ochota</a></h3><br>
+				<h4>Górka Szczęśliwicka</h4>
+				<p>Sztucznie usypane wzniesienie o wysokości 152 m n.p.m., w Parku Szczęśliwickim na Szczęśliwicach, w zachodniej części dzielnicy Ochota i najwyższy punkt wysokościowy Warszawy. Teren parku (ok. 3,5 ha) otoczony jest od zachodniej strony domami przy ul. Przy Parku oraz Fortem Szczęśliwice, a od wschodniej – jeziorkiem Glinianki Szczęśliwickie. Największą atrakcją Górki jest stok narciarski (Ośrodek „Szczęśliwice”).</p><br>
+			<h3><a id="pragapoludnie">Praga Południe</a></h3><br>
+				<h4>Soho Factory</h4>
+				<p>Dawne fabryki na Pradze przeżywają drugą młodość. W Soho w odnowionych budynkach, przypominających dawne kamienice, znajdziemy zarówno pracownie architektoniczne, Muzeum Neonów, galerie sztuki, restauracje znanego kucharza czy wielką salę wystawienniczo-koncertową. To miejsce, do którego warto się wybrać, żeby poczuć klimat starej/nowej Pragi.</p><br>
+				<h4>Park Skaryszewski</h4>
+				<p>W Parku Skaryszewskim rozwinięta jest infrastruktura sportowa i rekreacyjna, na jego terenie utworzono pierwsze w Warszawie boisko sportowe z bieżnią, a ponadto korty tenisowe, przystań dla łódek oraz kąpielisko z trampoliną, muszlę koncertową i plac zabaw dla dzieci. Większość z tych obiektów funkcjonuje do dzisiaj, boisko sportowe znajduje się w gestii klubu Drukarz Warszawa. Dawniej przy głównej alei odbywały się "konkursy na piękno" nowych marek samochodów, pokazy mody oraz konkursy taneczne. Alejki oraz zakamarki parkowe udekorowane są również różnego rodzaju rzeźbami, pomnikami, kapliczkami oraz kamieniami pamiątkowymi.</p><br>
+			<h3><a id="pragapolnoc">Praga Północ</a></h3><br>
+				<h4>Muzeum Warszawskiej Pragi</h4>
+				<p>Muzeum poświęcone Pradze – prawobrzeżnej części miasta – i jej dziedzictwu. Długo oczekiwane, zostało wreszcie otwarte w 2015 roku. W wyremontowanych kamienicach przy ul. Targowej znalazły się m.in. ekspozycje muzealne, sala edukacji interaktywnej i historii mówionej oraz klimatyczna kawiarnia Niebieski Syfon. W skład muzeum wszedł też dom modlitwy oraz nowy budynek z salą projekcyjną. Muzeum  organizuje wystawy z bezpłatnym oprowadzaniem w wybranych terminach, warsztaty dla dzieci, spacery po dzielnicy, przeglądy kulturalne i spektakle teatralne, festiwale (m.in. festiwal rzemiosła z targami produktów rzemieślniczych) i konferencje.</p><br>
+			<h3><a id="rembertow">Rembertów</a></h3><br>
+				<h4>Las Rembertowski</h4>
+				<p>Dzielnica Rembertów, choć niewielka, zasługuje na zainteresowanie ze względu na duże obszary leśne tworzące tzw. korytarz ekologiczny. Tereny leśne Rembertowa stanowią ok. 31 % powierzchni dzielnicy. W Lesie Rembertowskim występują liczne pomniki przyrody. Jest to idealne miejsce dla osób poszukujących spokojnego miejsca na spacer.</p><br>
+			<h3><a id="srodmiescie">Śródmieście</a></h3><br>
+				<h4>Stare Miasto</h4>
+				<p>Spacer po warszawskiej starówce zacznijmy pod słynną Kolumną Zygmunta na Placu Zamkowym. Tuż obok stoi monumentalny Zamek Królewski, siedziba pierwszych królów Polski. Został odbudowany w latach 70. i 80. właściwie od podstaw po tym jak w 1944 roku Niemcy wysadzili go w powietrze. W odrestaurowanych wnętrzach z powrotem urządzono królewskie apartamenty. W obrębie starówki trzeba zobaczyć otoczony kolorowymi kamienicami rynek z pomnikiem syreny, barbakan i Katedrę św. Jana. Ze Starego Miasta warto przejść się Krakowskim Przedmieściem, czyli najbardziej reprezentacyjną ulicą Warszawy, pełną kościołów, kamienic i pomników. Znajdują się przy niej również Pałac Prezydencki i Uniwersytet Warszawski.</p><br>
+				<h4>Pałac Kultury</h4>
+				<p>Warszawa dobrze prezentuje się z góry, dlatego warto wybrać się na 30. piętro Pałacu Kultury i Nauki, gdzie znajduje się najwyższy punkt widokowy. Stolicę można obejrzeć stąd z każdej strony. Podczas wizyty w wieżowcu wybierzmy się do mieszczącego się w nim Muzeum Techniki. Zobaczyć można w nim stare motocykle, odbiorniki radiowe i wiele innych zabytkowych sprzętów. A jeśli komuś mało widoków, na drinka zaprasza najwyżej położony w Warszawie sky bar Panorama – mieści się na 40. piętrze hotelu Mariott przy Alejach Jerozolimskich.</p><br>
+				<h4>Centrum Nauki Kopernik</h4>
+				<p>Nad Wisłą leży też słynne Centrum Nauki Kopernik. To interaktywne muzeum popularyzujące naukę za pomocą eksperymentów, w których uczestniczą zwiedzający, i multimedialnych ekspozycji. Jest podzielone na kilka sal tematycznych, gdzie znajdują się wystawy stałe i czasowe. Przez okrągły rok w CKN można sprawdzić, jak powstaje tornado, jak działa ludzkie ciało i ludzka psychika, zagrać na laserowej harfie, dowiedzieć się, jak zbudowany jest Wszechświat albo usiąść na latającym dywanie (Ul. Wybrzeże Kościuszkowskie 20).</p><br>
+				<h4>Łazienki Królewskie</h4>
+				<p>W Warszawie warto zobaczyć też Łazienki Królewskie, przepiękny klasycystyczny zespół pałacyków położonych w parku, który założył w XVIII w. król Stanisław Poniatowski. Gdy pogoda jest ładna, Łazienki są masowo oblegane przez warszawiaków. Z ciekawszych budowli znajdują się tu Pałac na Wyspie, gdzie odbywały się obiady czwartkowe, czyli spotkania króla z intelektualistami, Amfiteatr i Stara Pomarańczarnia. Kilkaset metrów dalej leży Zamek Ujazdowski, gdzie mieści się Centrum Sztuki Współczesnej (ul. Jazdów 2).</p><br>
+				<h4>Nowy Świat</h4>
+				<p>Butiki, kawiarnie, modne knajpy. Spacer Nowym Światem to konieczność, jeżeli chcemy pooddychać tym, co kręci młodych warszawiaków. Jedna z najdroższych ulic w Polsce kończy się, czy jak kto woli, zaczyna przy rondzie de Gaulle’a ze słynną palmą – „Pozdrowienia z Alej Jerozolimskich” śle autorka instalacji, Joanna Rajkowska. W okolicy Nowego Światu do wyboru jest ogromna liczba restauracji. Blisko „palmy” można dobrze zjeść w restauracji Papaya (ul. Foksal 16). Pyszne jedzenie nie tylko dla miłośników orientalnej kuchni, wszystkie serwowane potrawy są pięknie podane i przypominają małe dzieła sztuki. Spotkać można tu ludzi ze świata polityki i sztuki. W pobliżu jest też sporo miejsc do imprezowania, wśród najciekawszych klub „Powiększenie” (Nowy Świat 27). Dobrym miejscem na smaczny i tani obiad jest jeden z najsłynniejszych warszawskich barów mlecznych – „Familijny” (Nowy Świat 39).</p><br>
+				<h4>Mysia 4</h4>
+				<p>Budynek przy ulicy Mysiej 3 zyskał nowe oblicze trzy lata temu. To wtedy otwarto w tym miejscu nowoczesny dom handlowy połączony z przestrzenią wystawienniczą, eventową i restauracyjną. Kameralny kompleks umiejscowiony w samym centrum ale jednocześnie lekko na uboczu, z dala od zgiełku, szybko zyskał wierne grono bywalców. My postanowiliśmy sprawdzić, co sprawiło, że stał się zakupową enklawą dla osób, które nie znoszą centrów handlowych. Przy wyborze najemców brane są pod uwagę marki, które nie stawiają na blichtr, epatowanie bogactwem czy metką. Co prawda ich ceny nie są najniższe, ale są w pełni adekwatne do jakości i niepowtarzalności, którą prezentują. Poza tym przekrój oferty jest na tyle szeroki, że każdy znajdzie coś dla siebie, także na możliwości swojego portfela.</p><br>
+			<h3><a id="targowek">Targówek</a></h3><br>
+				<h4>Park Bródnowski</h4>
+				<p>Jest to ulubione miejsce wypoczynku mieszkańców Targówka. Ten położony między blokami park jest pięknie zaprojektowaną oazą zieleni, z trzema akwenami wodnymi, fontanną, uporządkowanymi alejkami, placami zabaw dla dzieci a także boiskami sportowymi. Spacerujący po parku mogą tu podziwiać piękne drzewa takie jak: platany klonolistne, modrzewie, brzozy, lipy drobnolistne, buki, a także krzewy berberysu, forsycji, żylistka. W akwenach pływają kaczki i rybitwy co nadaje temu miejscu szczególny charakter. Po zmierzchu Park Bródnowski oświetlają nowoczesne lampy. Park cały czas jest modernizowany, uzupełniane są nasadzenia drzew i krzewów.</p><br>
+			<h3><a id="ursus">Ursus</a></h3><br>
+				<h4>Park Linowy Ursus</h4>
+				<p>Zbudowany z myślą o dzieciach, ale odpowiedni także dla starszych. Park linowy znajduje się w OSiRze przy ul. Sosnowskiego. To dobry pomysł dla osób, które lubią aktywnie spędzać czas na świeżym powietrzu.</p><br>
+			<h3><a id="ursynow">Ursynów</a></h3><br>
+				<h4>Park Kultury w Powsinie</h4>
+				<p>Teren rekreacyjno-sportowy w Warszawie położony w sąsiedztwie Lasu Kabackiego i Ogrodu Botanicznego PAN. Park powstał na 50 ha terenach klubu golfowego, zakupionych w 1938 od hr. Adama Branickiego. Pozostałością z tego okresu jest drewniany budynek, w którym mieści się m.in. administracja parku. Na terenie parku znajdują się boiska do koszykówki, siatkówki, stoliki do gry w szachy, basen odkryty, wypożyczalnie sprzętu sportowego oraz ujęcia wody głębinowej, a także muszla koncertowa, w której odbywają się imprezy kulturalne. Przez cały rok można wynająć znajdujące się na wydzielonym obszarze parku domki kempingowe wyposażone w pełen węzeł sanitarny.</p><br>
+			<h3><a id="wawer">Wawer</a></h3><br>
+				<h4>Rezerwat im. Króla Jana Sobieskiego</h4>
+				<p>Leśny rezerwat przyrody położony w północno-wschodniej części dzielnicy Wawer. Rozległa niska wydma porośnięta lasem sosnowo-dębowo-lipowym z domieszką czarnej brzozy, na terenie uroczyska Las Sobieskiego. Jest jednym z dziewięciu rezerwatów Mazowieckiego Parku Krajobrazowego. Celem powołania rezerwatu jest ochrona fragmentów starodrzewu dębowego, będącego częścią pierwotnej Puszczy Mazowieckiej. W rezerwacie można spotkać borsuka, kunę leśną, dzięcioła czarnego, dzięcioła średniego, myszołowa, jastrzębia, puszczyka, muchołówkę małą, muchołówka żałobną, zaskrońca czy padalca. Z owadów prawnie chronionych związanych z dziuplastymi drzewami stwierdzono kwietnicę okazałą.</p><br>
+			<h3><a id="wesola">Wesoła</a></h3><br>
+				<h4>Kościół parafialny św. Antoniego Padewskiego w Starej Miłośnie</h4>
+				<p>Jeden z zabytków dzielnicy Wesoła. Unikatowy na skalę Warszawy kościół zbudowany został z drewna w stylu zakopiańskim.</p><br>
+			<h3><a id="wilanow">Wilanów</a></h3><br>
+				<h4>Pałac w Wilanowie</h4>
+				<p>To także jeden z klasyków turystycznej mapy Warszawy, ale naprawdę trudno się dziwić. Poza możliwością zwiedzenia wyjątkowego barokowego pałacu króla Jana III Sobieskiego, warto tu zaczerpnąć świeżego powietrza, przechadzając się po przepięknym przypałacowym ogrodzie. Pochodzi on z XVII wieku i został zaprojektowany w stylu włoskim, nawiązując do form antycznych, renesansowych i barokowych.</p><br>
+			<h3><a id="wlochy">Włochy</a></h3><br>
+				<h4>Papugarnia Carmen</h4>
+				<p>Papugarnia Carmen w Warszawie to 400 m² przestrzeni dla ponad 100 kolorowych ptaków i odwiedzających. Papug jest tu ponad sto, 30 różnych gatunków. Wielkie ary, gadatliwe żako, zwinne kakadu, nimfy, aleksandretty, amazonki, afrykanki, rudosterki i wiele innych. Latają swobodnie w wolierze o powierzchni 400 m kw. Zwiedzający spacerują pomiędzy ptakami, mogą je karmić kupionym na miejscu ziarnem.</p><br>
+			<h3><a id="wola">Wola</a></h3><br>
+				<h4>Muzeum Powstania Warszawskiego</h4>
+				<p>Jednym z najsłynniejszych muzeów Warszawy jest Muzeum Powstania Warszawskiego, które mieści się w dawnej elektrowni tramwajowej na Woli. Powstało jako „hołd warszawiaków, którzy przeżyli dla tych, którzy zginęli w powstaniu za wolną Polskę w 1944 r.” Multimedialne wystawy eksponują m.in. archiwalne fotografie, filmy i nagrania. Utworzono tu nawet fragment kanału, którym powstańcy przechodzili pod miastem.</p><br>
+				<h4>Teren dawnego getta</h4>
+				<p>Podczas Drugiej Wojny Światowej na terenie Muranowa i Woli powstało getto dla ludności żydowskiej utworzone przez władze niemieckie. W 1942 roku większość z nich zostało wywiezionych i zamordowanych w obozie zagłady w Treblince. Po powstaniu w getcie, zostało ono ostatecznie zlikwidowane w maju w 1943. Dziś na jego terenie znajduje się szereg miejsc pamięci, ośrodków kultury Żydowskiej oraz otwarte niedawno Muzeum Historii Żydów Polskich.</p><br>
+			<h3><a id="zoliborz">Żoliborz</a></h3><br>
+				<h4>Cytadela Warszawska</h4>
+				<p>Twierdza która została zbudowana na rozkaz Cara Mikołaja I, po powstaniu listopadowym,  na terenie XVI wiecznego Folwarku Fawory oraz XVII wiecznego Konwiktu Pijarów w latach 1832-1834 r. Cytadela zajmuje 36 ha powierzchni Żoliborza. Powstała według projektu majora Iwana Dehna i miała charakter obrony, jej pierwowzorem była Cytadela Antwerpijska. Kamień węgielny wbił namiestnik Królewska Polskiego – Iwan Paskiewicz. Przy budowie byli zatrudnieni rosyjskiscy chłopi i żołnierze. Pod przyszłą Cytadele wyburzono 76 domów przejęto 64 tys. posesji, jednocześnie wysiedlając około 15 tyś mieszkańców dzielnicy. Prace przy jej budowie pochłonęły około 11 milionów rubli za które zapłaciła Warszawa, poprzez kredyt z kasy miejskiej oraz Banku Polskiego była to kara za powstanie listopadowe. Obecnie w Cytadeli stacjonuje Dowództwo Wojsk Lądowych. W 2012 roku ma w niej powstać muzeum Wojska Polskiego i ostatecznie Cytadela ma zostać oddana mieszkańcom, aby z obiektu militarnego stała się ważnym obiektem  na kulturalnej mapie Warszawy.</p><br>
+			</div>
+		</div>
+		<div class="footer" id="footer">
+			<p><span style="background-color:#a88645">by Zuzanna Jacewicz</span></p>
+		</div>
+		 <button onclick="goBack()" id="goback" title="Wróć na górę">^</button> 
+	</div>
+	
+	
+</body>
+</html>
